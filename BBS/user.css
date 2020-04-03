@@ -1,0 +1,101 @@
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+  background: #fbfbfa
+}
+.bg-image{
+  background-image: url("images/sample2.jpg");
+  background-size: cover;
+}
+.bg-subimage{
+  height:100%;
+  background-color:rgba(0,0,0,0.6);
+}
+.main{
+  width:350px;
+  padding:150px;
+  margin:0 auto;
+}
+.main h1{
+  color: white;
+  font-size: 20px;
+  text-align:center;
+  margin-bottom:100px;
+}
+.form{
+  overflow: hidden;
+}
+input[type="text"]{
+  color: #545454;
+  height: 60px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+input[type="password"]{
+  color: #545454;
+  height: 60px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+input[type="submit"]{
+  border: none;
+  width:100%;
+  padding: 15px 30px;
+  margin-top:50px;
+  margin-bottom: 20px;
+  background: #3d3938;
+  color:white;
+}
+input[type="submit"]:hover{
+  background: #111;
+  cursor: pointer;
+}
+.link p{
+  text-align:center;
+  color:white;
+}
+.link a{
+  color: #3897F0;
+}
+.link a:hover{
+  text-decoration: none;
+}
+.err_msg{
+  color: #ff4d4b;
+}
+footer{
+  color: white;
+  text-align:center;
+}
