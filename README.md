@@ -1,2 +1,2 @@
 # practice
-# Hello git!
+Hello git!
